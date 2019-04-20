@@ -24,24 +24,25 @@ public class log_in extends AppCompatActivity implements OnClickListener {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.log_in);
-        login = (Button) findViewById(R.id.tombol_login);
-        user = (EditText) findViewById(R.id.username);
-        pass = (EditText) findViewById(R.id.password);
+        login = findViewById(R.id.tombol_login);
+        user = findViewById(R.id.username);
+        pass = findViewById(R.id.password);
 
     }
 
-    public void setLogin(View view){
-//        teks_user = user.getText().toString();
-//        teks_pass = pass.getText().toString();
-//        if (teks_user.equalsIgnoreCase("admin")&&teks_pass.equalsIgnoreCase("admin")){
-            Intent kader_menu = new Intent(log_in.this, kader_menu.class);
-            startActivity(kader_menu);
-            finish();
-//        }
-    }
+//    public void setLogin(){
+////        teks_user = user.getText().toString();
+////        teks_pass = pass.getText().toString();
+////        if (teks_user.equalsIgnoreCase("admin")&&teks_pass.equalsIgnoreCase("admin")){
+//            Intent kader_menu = new Intent(log_in.this, kader_menu.class);
+//            startActivity(kader_menu);
+//            finish();
+////        }
+//    }
 
     @Override
     public void onClick(DialogInterface dialog, int which) {
+
     }
 
     //------------------------------  Untuk tombol back dari hp
@@ -71,5 +72,11 @@ public class log_in extends AppCompatActivity implements OnClickListener {
                             }).create().show();
         }
         return false;
+    }
+
+    public void setLogin(View view) {
+        Intent kader_menu = new Intent(log_in.this, kader_menu.class);
+        startActivity(kader_menu);
+        finish();
     }
 }
