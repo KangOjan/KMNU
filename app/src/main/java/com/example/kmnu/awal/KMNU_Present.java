@@ -1,10 +1,12 @@
-package com.example.kmnu;
+package com.example.kmnu.awal;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
+
+import com.example.kmnu.R;
 
 public class KMNU_Present extends AppCompatActivity {
 

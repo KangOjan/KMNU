@@ -9,13 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".log_in">
+        <activity android:name=".awal.KMNU_Present">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".awal.log_in"
+            android:label="Log In" />
+        <activity
+            android:name=".kader.kader_menu"
+            android:label="Kader Menu" />
     </application>
 
 </manifest>

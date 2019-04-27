@@ -1,7 +1,6 @@
-package com.example.kmnu;
+package com.example.kmnu.awal;
 
 import android.content.DialogInterface;
-import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -11,8 +10,11 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
-public class log_in extends AppCompatActivity implements OnClickListener {
+import com.example.kmnu.R;
+
+public class log_in extends AppCompatActivity {
 
     Intent log_in;
     Button login;
@@ -28,28 +30,26 @@ public class log_in extends AppCompatActivity implements OnClickListener {
         user = findViewById(R.id.username);
         pass = findViewById(R.id.password);
 
-    }
-
-//    public void setLogin(){
-////        teks_user = user.getText().toString();
-////        teks_pass = pass.getText().toString();
-////        if (teks_user.equalsIgnoreCase("admin")&&teks_pass.equalsIgnoreCase("admin")){
-//            Intent kader_menu = new Intent(log_in.this, kader_menu.class);
-//            startActivity(kader_menu);
-//            finish();
-////        }
-//    }
-
-    @Override
-    public void onClick(DialogInterface dialog, int which) {
-
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                teks_user = user.getText().toString();
+                teks_pass = pass.getText().toString();
+                if (teks_user.equalsIgnoreCase("kader") && teks_pass.equalsIgnoreCase("kader")) {
+                    Toast.makeText(getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
+                    Intent kader_menu = new Intent(view.getContext(), com.example.kmnu.kader.kader_menu.class);
+                    startActivity(kader_menu);
+                    finish();
+                }
+            }
+        });
     }
 
     //------------------------------  Untuk tombol back dari hp
     @Override
     public boolean onKeyUp(int keyCode, KeyEvent event) {
-        if (keyCode == KeyEvent.KEYCODE_BACK){
-            if (builder == null){
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            if (builder == null) {
                 builder = new AlertDialog.Builder(this);
             }
             builder.setTitle("Ingin keluar?");
@@ -72,11 +72,5 @@ public class log_in extends AppCompatActivity implements OnClickListener {
                             }).create().show();
         }
         return false;
-    }
-
-    public void setLogin(View view) {
-        Intent kader_menu = new Intent(log_in.this, kader_menu.class);
-        startActivity(kader_menu);
-        finish();
     }
 }

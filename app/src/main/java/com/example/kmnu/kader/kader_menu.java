@@ -1,4 +1,4 @@
-package com.example.kmnu;
+package com.example.kmnu.kader;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -6,6 +6,8 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
+
+import com.example.kmnu.R;
 
 public class kader_menu extends AppCompatActivity {
 

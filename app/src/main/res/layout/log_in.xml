@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/relativeLayout2"
     android:layout_width="match_parent"
@@ -21,7 +20,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:hint="Username"
-        android:layout_gravity="center"/>
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
     
     <EditText
         android:id="@+id/password"
@@ -30,13 +31,14 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:ems="10"
-        android:layout_gravity="center"/>
-    
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
     <Button
         android:id="@+id/tombol_login"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="Log In"
         android:layout_gravity="center"
-        android:onClick="setLogin"/>
+        android:onClick="setLogin"
+        android:text="Log In" />
 </LinearLayout>
