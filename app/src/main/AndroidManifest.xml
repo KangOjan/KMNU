@@ -22,6 +22,12 @@
         <activity
             android:name=".kader.kader_menu"
             android:label="Kader Menu" />
+        <activity
+            android:name=".kader.kader_keloladatadiri"
+            android:label="Kelola Data Diri" />
+        <activity
+            android:name=".kader.kader_keloladatadiri_insert"
+            android:label="Insert Data Diri" />
     </application>
 
 </manifest>

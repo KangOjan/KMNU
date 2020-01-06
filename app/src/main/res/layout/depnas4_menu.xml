@@ -31,12 +31,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Input Audit KMNU PT"/>
+        android:text="@string/nasional_insert_audit_pt"/>
 
     <Button
         android:id="@+id/viewPenilaianKMNUPT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Lihat Audit KMNU PT"/>
+        android:text="@string/nasional_view_audit_pt"/>
 </LinearLayout>

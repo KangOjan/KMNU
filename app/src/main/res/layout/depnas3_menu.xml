@@ -31,12 +31,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Input Pemesanan"/>
+        android:text="@string/nasional_insert_pesanan"/>
 
     <Button
         android:id="@+id/viewPemesananJaket"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Lihat Pemesanan"/>
+        android:text="@string/nasional_view_pesanan"/>
 </LinearLayout>

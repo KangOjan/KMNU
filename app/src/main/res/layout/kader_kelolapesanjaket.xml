@@ -31,20 +31,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Input Data Pesanan"/>
+        android:text="@string/insert_pemesanan"/>
 
     <Button
         android:id="@+id/editDataPesanan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Ubah Data Pesanan"/>
+        android:text="@string/edit_pemesanan"/>
 
     <Button
         android:id="@+id/viewDataPesanan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Lihat Data Pesanan"/>
+        android:text="@string/view_pemesanan"/>
 
 </LinearLayout>

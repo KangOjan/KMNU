@@ -27,24 +27,24 @@
         android:layout_gravity="center"/>
 
     <Button
-        android:id="@+id/inputDataDiri"
+        android:id="@+id/tombol_inputDataDiri"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Input Biodata"/>
+        android:text="@string/insert_data_diri"/>
 
     <Button
-        android:id="@+id/editDataDiri"
+        android:id="@+id/tombol_editDataDiri"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Ubah Biodata"/>
+        android:text="@string/edit_data_diri"/>
 
     <Button
-        android:id="@+id/viewDataDiri"
+        android:id="@+id/tombol_viewDataDiri"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Lihat Biodata"/>
+        android:text="@string/view_data_diri"/>
 
 </LinearLayout>

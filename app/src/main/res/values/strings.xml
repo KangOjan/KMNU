@@ -1,4 +1,63 @@
 <resources>
     <string name="app_name">KMNU</string>
     <string name="nyapa">Selamat datang</string>
+    <string name="title_activity_kader_menu_kelola_data">kader_menu_kelola_data</string>
+    <!--depnas 1-->
+    <string name="nasional_insert_audit">Isi Audit Nasional</string>
+    <string name="nasional_edit_audit">Ubah Audit Nasional</string>
+    <string name="nasional_delete_audit">Hapus Audit Nasional</string>
+    <string name="nasional_view_audit">Lihat Audit Nasional</string>
+    <!--depnas 2-->
+    <string name="nasional_insert_kader">Isi Data Kader Nasional</string>
+    <string name="nasional_edit_kader">Ubah Data Kader Nasional</string>
+    <string name="nasional_delete_kader">Hapus Data Kader Nasional</string>
+    <string name="nasional_view_kader">Lihat Data Kader Nasional</string>
+    <!--depnas 3-->
+    <string name="nasional_insert_pesanan">Isi Data Pesanan Nasional</string>
+    <string name="nasional_edit_pesanan">Ubah Data Pesanan Nasional</string>
+    <string name="nasional_delete_pesanan">Hapus Data Pesanan Nasional</string>
+    <string name="nasional_view_pesanan">Lihat Data Pesanan Nasional</string>
+    <!--depnas 4-->
+    <string name="nasional_insert_audit_pt">Isi Audit Regional-PT</string>
+    <string name="nasional_edit_audit_pt">Ubah Audit Regional-PT</string>
+    <string name="nasional_delete_audit_pt">Hapus Audit Regional-PT</string>
+    <string name="nasional_view_audit_pt">Lihat Audit Regional-PT</string>
+    <!--depnas 5-->
+    <string name="nasional_insert_rutinan">Isi Rutinan Nasional</string>
+    <string name="nasional_edit_rutinan">Ubah Rutinan Nasional</string>
+    <string name="nasional_delete_rutinan">Hapus Rutinan Nasional</string>
+    <string name="nasional_view_rutinan">Lihat Rutinan Nasional</string>
+    <!--Regional-->
+        <!--Sekretaris-->
+        <!--Bendahara-->
+        <!--Kajian Dakwah-->
+    <!--KMNU PT-->
+        <!--Sekretaris-->
+            <!--kelola akun-->
+            <!--kelola kader-->
+        <!--Bendahara-->
+        <!--Kajian Dakwah-->
+    <!--kader-->
+        <!--Menu Data diri-->
+        <string name="kader_kelola_diri">Kelola Data Diri</string>
+            <!--Data diri-->
+            <string name="insert_data_diri">Isi Data Diri</string>
+            <string name="edit_data_diri">Ubah Data Diri</string>
+            <string name="view_data_diri">Lihat Data Diri</string>
+        <!--Menu Pesan Jaket-->
+        <string name="kader_pesan">Kelola Pemesanan Jaket</string>
+            <!--Pesan Jaket-->
+            <string name="insert_pemesanan">Isi Pemesanan</string>
+            <string name="edit_pemesanan">Ubah Pemesanan</string>
+            <string name="view_pemesanan">Lihat Pemesanan</string>
+
+    <string name="simpan">Simpan</string>
+    <string name="ubah">Ubah</string>
+    <string name="hapus">Hapus</string>
+
+    <string name="kader_judul_datadiri">Form Data Diri</string>
+    <string name="kader_judul_view_datadiri">Data Diri</string>
+
+    <string name="kader_judul_pesan">Form Pesan Jaket</string>
+    <string name="kader_judul_view_pesan">Data Pemesanan</string>
 </resources>

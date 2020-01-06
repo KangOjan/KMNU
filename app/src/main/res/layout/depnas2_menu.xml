@@ -31,12 +31,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Input Data Kader"/>
+        android:text="@string/nasional_insert_kader"
+        android:onClick="in_data_kader"/>
 
     <Button
         android:id="@+id/viewDataKader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Lihat Data Kader"/>
+        android:text="@string/nasional_view_kader"
+        android:onClick="view_data_kader"/>
 </LinearLayout>

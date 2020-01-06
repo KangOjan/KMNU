@@ -31,5 +31,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Lihat Data Rutinan KMNU PT"/>
+        android:text="@string/nasional_view_rutinan"/>
 </LinearLayout>
